@@ -1,0 +1,22 @@
+
+### JAVA  
+Integer.MIN_VALUE
+Integer.MAX_VALUE
+
+Iterators
+Graph
+
+Function
+Math.min 
+Math.max
+
+### C++
+MIN_INT
+MAX_INT
+
+Iterators
+Graph
+
+min
+max
+

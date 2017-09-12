@@ -1,0 +1,73 @@
+
+---------------------------------------------------------------------------------------------------------------------------
+iterativeInorder(node)
+  s ← empty stack
+  while (not s.isEmpty() or node ≠ null)
+    if (node ≠ null)
+      s.push(node)
+      node ← node.left
+    else
+      node ← s.pop()
+      visit(node)
+      node ← node.right
+
+---------------------------------------------------------------------------------------------------------------------------
+inorder(node)
+  if (node = null)
+    return
+  inorder(node.left)
+  visit(node)
+  inorder(node.right)
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+preorder(node)
+  if (node = null)
+    return
+  visit(node)
+  preorder(node.left)
+  preorder(node.right)
+
+---------------------------------------------------------------------------------------------------------------------------
+iterativePreorder(node)
+  s ← empty stack
+  while (not s.isEmpty() or node ≠ null)
+    if (node ≠ null)
+    visit(node)
+    if (node.right ≠ null)
+      s.push(node.right)
+    node ← node.left
+    else
+    node ← s.pop()
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
+
+postorder(node)
+  if (node = null)
+    return
+  postorder(node.left)
+  postorder(node.right)
+  visit(node)
+
+
+iterativePostorder(node)
+  s ← empty stack
+  lastNodeVisited ← null
+  while (not s.isEmpty() or node ≠ null)
+    if (node ≠ null)
+      s.push(node)
+      node ← node.left
+    else
+      peekNode ← s.peek()
+       if right child exists and traversing node
+       from left child, then move right
+      if (peekNode.right ≠ null and lastNodeVisited ≠ peekNode.right)
+        node ← peekNode.right
+      else
+        visit(peekNode)
+        lastNodeVisited ← s.pop()
+
+---------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------

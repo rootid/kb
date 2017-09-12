@@ -1,0 +1,21 @@
+
+Regex
+DNS 
+encoding
+buffer overflow
+Memory leak
+basic commands
+
+MOD = 10^9 + 7 
+(a*b)%M = ( (a%M) * (b%M) )%M
+
+Decoding 2D position into 1D
+(x,y) ele in (Row,Col) array 
+Encode
+(x,y) = (x*Col + y)
+Decode 
+(x*Col+y) = [ (x*Col + y)/Col, (x*Col + y)%Col ]
+
+Traversal 
+BFS traversal/level traversal (x+1 and x can be traversed parallely)
+DFS traversal/depth traversal (x+1 visited prior to x)
