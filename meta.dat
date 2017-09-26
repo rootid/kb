@@ -1,6 +1,15 @@
+./books/clean-code.txt
 ./complexity.txt
+./dbms/dbms.txt
+./ds/ds.txt
+./editors/vim.txt
 ./first.txt
+./journey-nxt.txt
+./journey.txt
 ./lang/java.txt
 ./must-know.txt
+./os/os.txt
 ./security.txt
+./test.txt
+./TODO.txt
 ./tree_traversal.txt

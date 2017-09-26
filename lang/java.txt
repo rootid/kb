@@ -4,7 +4,7 @@ Immutatable char array | Mutable char array
 Substring | optimal | append  (optimal)
 
 Vector | ArrayList
-  
+
 Worst design java.util.time?
 
 ### 
@@ -23,7 +23,8 @@ Used as
 eg . List<Apple> greenApples =
         filter(inventory, (Apple a) -> "green".equals(a.getColor()));
 
-  
+ 
 
-# vim: ts=2 sw=2 tw=85 et
+# vim: set ts=2 sw=2 et:
+
 

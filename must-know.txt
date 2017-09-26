@@ -19,3 +19,40 @@ Decode
 Traversal 
 BFS traversal/level traversal (x+1 and x can be traversed parallely)
 DFS traversal/depth traversal (x+1 visited prior to x)
+
+
+Uptime SLA
+
+Downtime per year
+
+90.0%
+
+36 days, 12 hours
+
+95.0%
+
+18 days, 6 hours
+
+99.0%
+
+87 hours, 36 minutes
+
+99.50%
+
+43 hours, 48 minutes
+
+99.90%
+
+8 hours, 45 minutes, 36 seconds
+
+99.99%
+
+52 minutes, 33 seconds
+
+99.999%
+
+5 minutes, 15 seconds
+
+99.9999%
+
+32 seconds

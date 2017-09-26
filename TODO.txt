@@ -1,0 +1,16 @@
+https://landing.google.com/sre/book/chapters/production-environment.html
+https://landing.google.com/sre/book.html
+https://mirror-vm.apache.org/~henkp/trust/
+https://www.safaribooksonline.com/library/view/java-concurrency-in/0321349601/ch06.html
+
+discrete struct
+http://home.iitk.ac.in/~arlal/book/mth202.pdf
+
+https://www.safaribooksonline.com/library/view/JOEL+ON+SOFTWARE:+And+on+Diverse+and+Occasionally+Related+Matters+That+Will+Prove+of+Interest+to+Software+Developers,+Designers,+and+Managers,+and+to+Those+Who,+Whether+by+Good+Fortune+or+Ill+Luck,+Work+with+Them+in+Some+Capacity/9781590593899/Chapter04.html#CHP-4-FN-9
+
+
+What is your Blue Ocean Strategy?
+
+What is the strategy?
+How it Works?
+Why it works?
