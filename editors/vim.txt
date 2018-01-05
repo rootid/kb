@@ -2,8 +2,7 @@
 -> vim --version
 
 # How to format file?
--> modeline  (^[#|//|/*] vim: set et[:])
+-> modeline  (^[#|//|/*] vim: set et [:])
 -> editorconfig plugin [ https://github.com/editorconfig/editorconfig-vim ]
 
 # vim: set ts=2 sw=2 et:
-
