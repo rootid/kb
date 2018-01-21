@@ -1,4 +1,4 @@
---- Review checklist --- 
+--- Review checklist ---
 https://blog.smartbear.com/code-review/creating-your-code-review-checklist/
 https://wiki.sei.cmu.edu/confluence/display/java/3+Recommendations
 https://dzone.com/articles/java-code-review-checklist
@@ -7,7 +7,7 @@ https://blog.smartbear.com/code-review/creating-your-code-review-checklist/
 
 file:///Users/${home}/Desktop/style-guide.html#header-naming
 
---- How to do review --- 
+--- How to do review ---
 https://www.ibm.com/developerworks/rational/library/11-proven-practices-for-peer-review/
 https://github.com/thoughtbot/guides/tree/master/code-review
 
@@ -26,7 +26,7 @@ Let them know where they can appeal your decision. For example, invite them to d
 Be clear. Don't sugarcoat things so much that the central message is obscured.
 Most importantly, give the feedback quickly. Don't just leave negative feedback to someone else or hope they aren't persistent enough to get their contribution accepted.
 
----- My TODO list ---- 
+---- My TODO list ----
 Have I defined the scope of the problem?
 Have I visualized the scope of the problem?
 Have I increased the scope of the problem? -> Scope creep
@@ -47,7 +47,7 @@ Is this code idiomatic, taking full advantage of the language, frameworks, and t
 Is anything here a re-implementation of existing functionality the developer may not be aware of?
 
 
------- Java ------ 
+------ Java ------
 Code Review Checklist
 General
 
@@ -85,7 +85,7 @@ Are arrays checked for ‘out-of-bound’ errors?
 Could any test code be replaced with the use of an existing API?
 
 
-######### Secure coding 
+######### Secure coding #########
 https://wiki.sei.cmu.edu/confluence/display/java/EXP50-J.+Do+not+confuse+abstract+object+equality+with+reference+equality
 
 

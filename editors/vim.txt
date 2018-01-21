@@ -2,7 +2,12 @@
 -> vim --version
 
 # How to format file?
--> modeline  (^[#|//|/*] vim: set et [:])
+-> modelines
 -> editorconfig plugin [ https://github.com/editorconfig/editorconfig-vim ]
 
-# vim: set ts=2 sw=2 et:
+# Vertical format
+:set formatprg=par
+:set formatprg=par\ -w50 "Set the line width = 50
+run the gq command. (run default settings)
+
+vim: set ts=2 sw=2 et:
